@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo chmod +x cipher-decryptor/usr/local/bin/decryptor
+python3 /opt/decryptor/decryptor.py
+sudo chmod +777 /usr/local/bin/decryptor
+ls -l /usr/local/bin/decryptor
+export PATH=$PATH:/usr/local/bin
+source ~/.zshrc
+decryptor
