@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo chmod +x cipher-decryptor/usr/local/bin/decryptor
+python3 /opt/decryptor/decryptor.py
